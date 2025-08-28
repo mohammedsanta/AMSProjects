@@ -1,36 +1,36 @@
-<!-- /*
-* Template Name: Sterial
-* Template Author: Untree.co
-* Tempalte URI: https://untree.co/
-* License: https://creativecommons.org/licenses/by/3.0/
-*/ -->
 <!doctype html>
 <html lang="en">
-<head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<meta name="author" content="Untree.co">
-	<link rel="shortcut icon" href="favicon.png">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<meta name="author" content="Untree.co">
+		
+		<meta name="description" content="" />
+		<meta name="keywords" content="bootstrap, bootstrap5" />
+		
+		<link rel="shortcut icon" href="favicon.jpg">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="fonts/icomoon/style.css">
+		<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+		<link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="loading/style.css">
 
-	<meta name="description" content="" />
-	<meta name="keywords" content="bootstrap, bootstrap5" />
-	
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;700&display=swap" rel="stylesheet">
 
-
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="loading/style.css">
-
-
-	<title>Sterial &mdash; Free Bootstrap 5 Website Template by Untree.co </title>
-</head>
+		<title>Sterial &mdash; Free Bootstrap 5 Website Template by Untree.co </title>
+	</head>
 <body>
 
-	<div class="site-mobile-menu site-navbar-target">
+	<div class="site-mobile-menu site-navbar-target" style="
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+">
 		<div class="site-mobile-menu-header">
 			<div class="site-mobile-menu-close">
 				<span class="icofont-close js-menu-toggle"></span>
@@ -39,53 +39,45 @@
 		<div class="site-mobile-menu-body"></div>
 	</div>
 
-	<nav class="site-nav mt-3">
-		<div class="container">
-
+	<nav class="site-nav mt-3" 
+		style="
+			background-color: rgba(255, 255, 255, 0.5);
+			backdrop-filter: blur(10px);
+			box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+			border-radius: 10px;
+		">
+		<div class="container" style="display: flex; flex-direction: column;">
 			<div class="site-navigation">
-				<div class="row">
-					<div class="col-6 col-lg-3">
-						<a href="index.html" class="logo m-0 float-start">Sterial</a>
-					</div>
-					<div class="col-lg-6 d-none d-lg-inline-block text-center nav-center-wrap">
-						<ul class="js-clone-nav  text-center site-menu p-0 m-0">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="about.html">About us</a></li>
-							<li class="has-children">
-								<a href="#">Dropdown</a>
-								<ul class="dropdown">
-									<li><a href="#">Menu One</a></li>
-									<li class="has-children">
-										<a href="#">Menu Two</a>
-										<ul class="dropdown">
-											<li><a href="#">Sub Menu One</a></li>
-											<li><a href="#">Sub Menu Two</a></li>
-											<li><a href="#">Sub Menu Three</a></li>
-										</ul>
-									</li>
-									<li><a href="#">Menu Three</a></li>
-								</ul>
-							</li>
-							<li class="active"><a href="services.html">Services</a></li>
-							<li><a href="blog.html">Blog</a></li>
+			<div class="row" style="display: flex; align-items: center;">
 
-						</ul>
-					</div>
-					<div class="col-6 col-lg-3 text-lg-end">
-						<ul class="js-clone-nav d-none d-lg-inline-block text-end site-menu ">
-							<li class="cta-button"><a href="contact.html">Contact Us</a></li>
-						</ul>
-
-						<a href="#" class="burger ms-auto float-end site-menu-toggle js-menu-toggle d-inline-block d-lg-none light" data-toggle="collapse" data-target="#main-navbar">
-							<span></span>
-						</a>
-					</div>
+				<div class="col-6 col-lg-3 d-flex align-items-center">
+				<a href="index.html" class="logo m-0">
+					<img src="favicon.jpg" alt="Logo" class="img-fluid" style="max-width: 70px;">
+				</a>
 				</div>
+
+				<div class="col-lg-6 d-none d-lg-inline-block text-center nav-center-wrap">
+				<ul class="js-clone-nav text-center site-menu p-0 m-0">
+					<li class="active"><a href="index.html">Home</a></li>
+					<li class="mx-3"><a href="about.html">About us</a></li>
+					<li class="mx-3"><a href="services.html">Services</a></li>
+				</ul>
+				</div>
+
+				<div class="col-6 col-lg-3 text-lg-end">
+				<ul class="js-clone-nav d-none d-lg-inline-block text-end site-menu">
+					<li class="cta-button"><a href="contact.html">Contact Us</a></li>
+				</ul>
+
+				<a href="#" class="burger ms-auto float-end site-menu-toggle js-menu-toggle d-inline-block d-lg-none light" data-toggle="collapse" data-target="#main-navbar">
+					<span></span>
+				</a>
+				</div>
+
 			</div>
-			
+			</div>
 		</div>
 	</nav>
-
 	
 
 	<div class="hero overlay">
@@ -430,12 +422,12 @@
 					<div class="widget">
 						<h3>Connect</h3>
 						<ul class="list-unstyled social">
-							<li><a href="#"><span class="icon-instagram"></span></a></li>
-							<li><a href="#"><span class="icon-twitter"></span></a></li>
-							<li><a href="#"><span class="icon-facebook"></span></a></li>
-							<li><a href="#"><span class="icon-linkedin"></span></a></li>
-							<li><a href="#"><span class="icon-pinterest"></span></a></li>
-							<li><a href="#"><span class="icon-dribbble"></span></a></li>
+							<li class="mx-3"><a href="#"><span class="icon-instagram"></span></a></li>
+							<li class="mx-3"><a href="#"><span class="icon-twitter"></span></a></li>
+							<li class="mx-3"><a href="#"><span class="icon-facebook"></span></a></li>
+							<li class="mx-3"><a href="#"><span class="icon-linkedin"></span></a></li>
+							<li class="mx-3"><a href="#"><span class="icon-pinterest"></span></a></li>
+							<li class="mx-3"><a href="#"><span class="icon-dribbble"></span></a></li>
 						</ul>
 					</div> <!-- /.widget -->
 				</div> <!-- /.col-lg-3 -->
@@ -444,11 +436,9 @@
 					<div class="widget">
 						<h3>Links</h3>
 						<ul class="list-unstyled float-left links">
-							<li><a href="#">About us</a></li>
-							<li><a href="#">Services</a></li>
-							<li><a href="#">News</a></li>
-							<li><a href="#">Careers</a></li>
-							<li><a href="#">Contact</a></li>
+							<li class="mx-3"><a href="#">About us</a></li>
+							<li class="mx-3"><a href="#">Services</a></li>
+							<li class="mx-3"><a href="#">Contact</a></li>
 						</ul>
 					</div> <!-- /.widget -->
 				</div> <!-- /.col-lg-3 -->
@@ -457,11 +447,9 @@
 					<div class="widget">
 						<h3>Company</h3>
 						<ul class="list-unstyled float-left links">
-							<li><a href="#">About us</a></li>
-							<li><a href="#">Services</a></li>
-							<li><a href="#">News</a></li>
-							<li><a href="#">Careers</a></li>
-							<li><a href="#">Contact</a></li>
+							<li class="mx-3"><a href="#">About us</a></li>
+							<li class="mx-3"><a href="#">Services</a></li>
+							<li class="mx-3"><a href="#">Contact</a></li>
 						</ul>
 					</div> <!-- /.widget -->
 				</div> <!-- /.col-lg-3 -->
@@ -470,18 +458,29 @@
 				<div class="col-lg-3">
 					<div class="widget">
 						<h3>Contact</h3>
-						<address>43 Raymouth Rd. Baltemoer, London 3910</address>
+						<address>Elite Tower - Zahraa El Maadi 4th Floor, App.7 Cairo, Egypt</address>
 						<ul class="list-unstyled links mb-4">
-							<li><a href="tel://11234567890">+1(123)-456-7890</a></li>
-							<li><a href="tel://11234567890">+1(123)-456-7890</a></li>
-							<li><a href="mailto:info@mydomain.com">info@mydomain.com</a></li>
+							<p class="mb-1"><a href="tel:+201033171655" class="text-decoration-none text-muted">(+02) 01033171655</a></p>
+							<p class="mb-1"><a href="tel:+201033118552" class="text-decoration-none text-muted">(+02) 01033118552</a></p>
+							<p class="mb-1"><a href="tel:+201080829499" class="text-decoration-none text-muted">(+02) 01080829499</a></p>
+							<p class="mb-0"><a href="tel:+20227548466" class="text-decoration-none text-muted">(+02) 27548466</a></p>
+							<li class="mx-3"><a href="mailto:europe.gatway.co@gmail.com">info@mydomain.com</a></li>
 						</ul>
 					</div> <!-- /.widget -->
 				</div> <!-- /.col-lg-3 -->
 
 			</div> <!-- /.row -->
 
+			<hr>
+			<div class="footer-bottom text-center pt-3">
+				<p class="copyright_text">
+					Designed By <a style="text-decoration: underline;" href="https://www.linkedin.com/company/amstechegyptt/">AMS Tech</a> 2025 <span id="copyright-year"></span> • <a style="text-decoration: underline;" href="privacy.html">Privacy Policy</a>
+				</p>
+			</div>
+			
 		</div> <!-- /.site-footer -->
+
+	</div>
 
 	<!-- Preloader -->
 	<div id="loadingScreen">
@@ -498,6 +497,7 @@
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
 	<!-- AOS Config js -->
 	<script src="js/AOS.config.js"></script>
+	<script src="js/navbar.js"></script>
 
 
 	</body>

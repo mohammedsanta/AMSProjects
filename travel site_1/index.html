@@ -1,78 +1,76 @@
 <!doctype html>
 <html lang="en">
-<head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<meta name="author" content="Untree.co">
-	<link rel="shortcut icon" href="favicon.png">
-
-	<meta name="description" content="" />
-	<meta name="keywords" content="bootstrap, bootstrap5" />
-	
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;700&display=swap" rel="stylesheet">
-
-	<link rel="stylesheet" href="fonts/icomoon/style.css">
-	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-
-	<link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-	<!-- <link rel="stylesheet" href="css/tiny-slider.css"> -->
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/app.css">
-	<link rel="stylesheet" href="loading/style.css">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<meta name="author" content="Untree.co">
+		
+		<meta name="description" content="" />
+		<meta name="keywords" content="bootstrap, bootstrap5" />
+		
+		<link rel="shortcut icon" href="favicon.jpg">
+		<link href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+		<link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="stylesheet" href="fonts/icomoon/style.css">
+		<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+		<link rel="stylesheet" href="css/app.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="loading/style.css">
 
 
-	<title>Sterial &mdash; Free Bootstrap 5 Website Template by Untree.co </title>
-</head>
+		<title>Europe Gateway</title>
+	</head>
 <body>
 
-	<div class="site-mobile-menu site-navbar-target">
+	<div class="site-mobile-menu site-navbar-target" 
+		style="
+			background-color: rgba(255, 255, 255, 0.7);
+			backdrop-filter: blur(10px);
+			-webkit-backdrop-filter: blur(10px);
+			box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+		">
+
 		<div class="site-mobile-menu-header">
 			<div class="site-mobile-menu-close">
 				<span class="icofont-close js-menu-toggle"></span>
 			</div>
 		</div>
 		<div class="site-mobile-menu-body"></div>
+
 	</div>
 
-	<nav class="site-nav mt-3">
-		<div class="container">
+	<nav class="site-nav mt-3" 
+		style="
+			background-color: rgba(255, 255, 255, 0.5);
+			backdrop-filter: blur(10px);
+			box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+			border-radius: 10px;
+		">
 
+		<div class="container" style="display: flex; flex-direction: column;">
 			<div class="site-navigation">
-				<div class="row">
-					<div class="col-6 col-lg-3">
-						<a href="index.html" class="logo m-0 float-start">Sterial</a>
+				<div class="row" style="display: flex; align-items: center;">
+
+					<div class="col-6 col-lg-3 d-flex align-items-center">
+						<a href="index.html" class="logo m-0">
+							<img src="favicon.jpg" alt="Logo" class="img-fluid" style="max-width: 70px;">
+						</a>
 					</div>
+
 					<div class="col-lg-6 d-none d-lg-inline-block text-center nav-center-wrap">
-						<ul class="js-clone-nav  text-center site-menu p-0 m-0">
+						<ul class="js-clone-nav text-center site-menu p-0 m-0">
 							<li class="active"><a href="index.html">Home</a></li>
 							<li class="mx-3"><a href="about.html">About us</a></li>
-							<li class="has-children">
-								<a href="#">Dropdown</a>
-								<ul class="dropdown">
-									<li class="mx-3"><a href="#">Menu One</a></li>
-									<li class="has-children">
-										<a href="#">Menu Two</a>
-										<ul class="dropdown">
-											<li class="mx-3"><a href="#">Sub Menu One</a></li>
-											<li class="mx-3"><a href="#">Sub Menu Two</a></li>
-											<li class="mx-3"><a href="#">Sub Menu Three</a></li>
-										</ul>
-									</li>
-									<li class="mx-3"><a href="#">Menu Three</a></li>
-								</ul>
-							</li>
 							<li class="mx-3"><a href="services.html">Services</a></li>
-							<li class="mx-3"><a href="blog.html">Blog</a></li>
-
 						</ul>
 					</div>
+
 					<div class="col-6 col-lg-3 text-lg-end">
-						<ul class="js-clone-nav d-none d-lg-inline-block text-end site-menu ">
+						<ul class="js-clone-nav d-none d-lg-inline-block text-end site-menu">
 							<li class="cta-button"><a href="contact.html">Contact Us</a></li>
 						</ul>
 
@@ -80,44 +78,59 @@
 							<span></span>
 						</a>
 					</div>
+
 				</div>
 			</div>
-			
 		</div>
 	</nav>
 
-	
-
 	<div class="hero overlay">
 
-		<div class="img-bg rellax">
-			<img src="images/download/1.jpg" alt="Image" class="img-fluid">
-		</div>
+		<!-- ✅ Slider -->
+		<div class="slider">
+			<div class="slider-inner">
+				<!-- Radio buttons -->
+				<input type="radio" name="slide" id="slide1" checked>
+				<input type="radio" name="slide" id="slide2">
+				<input type="radio" name="slide" id="slide3">
 
-		<div class="container">
-			<div class="row align-items-center justify-content-start">
-				<div class="col-lg-5">
-
-					<h1 class="heading" data-aos="fade-up">It's a Big World Out There, Go Explore</h1>
-					<p class="mb-5" data-aos="fade-up">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-
-					<div data-aos="fade-up">
-						<a href="https://www.youtube.com/watch?v=5n-e6lOhVq0" class="play-button align-items-center d-flex glightbox3" >
-							<span class="icon-button me-3">
-								<span class="icon-play"></span>
-							</span>
-							<span class="caption">Watch Video</span>
-						</a>
-					</div>
+				<!-- Slides -->
+				<div class="slides">
+				<div class="slide"><img src="images/download/1.jpg" alt="Slide 1"></div>
+				<div class="slide"><img src="images/download/1.jpg" alt="Slide 2"></div>
+				<div class="slide"><img src="images/download/1.jpg" alt="Slide 3"></div>
 				</div>
+			</div>
 
-				
+			<!-- Manual navigation (clickable dots) -->
+			<div class="navigation-manual">
+				<label for="slide1" class="manual-btn"></label>
+				<label for="slide2" class="manual-btn"></label>
+				<label for="slide3" class="manual-btn"></label>
 			</div>
 		</div>
 
-		
-	</div>
 
+
+	<!-- ✅ Content -->
+		<div class="container">
+			<div class="row align-items-center justify-content-start">
+			<div class="col-lg-5">
+				<h1 class="heading" data-aos="fade-up">It's a Big World Out There, Go Explore</h1>
+				<p class="mb-5" data-aos="fade-up">A small river named Duden...</p>
+				<div data-aos="fade-up">
+				<a href="#" class="play-button align-items-center d-flex glightbox3">
+					<span class="icon-button me-3">
+					<span class="icon-play"></span>
+					</span>
+					<span class="caption">Watch Video</span>
+				</a>
+				</div>
+			</div>
+			</div>
+		</div>
+
+	</div>
 
 	<div class="section section-2">
 		<div class="container">
@@ -145,7 +158,7 @@
 						<p data-aos="fade-up" data-aos-delay="300">We serve Corporate Travel, Leisure Packages, Conferences and Events Management, Haj and Umra trips, Inbound & Outbound Tours, Religious Islamic & Christian trips, in addition to Sports travel (Golf, Sea Sports, Surfing, Diving, etc..) with more than 70 employees, we support our customers with ultimate quality & dedicated services 24/7.</p>
 						<p data-aos="fade-up" data-aos-delay="300"></p>
 
-						<p class="my-4" data-aos="fade-up" data-aos-delay="300"><a href="#" class="btn btn-primary">Read more</a></p>
+						<p class="my-4" data-aos="fade-up" data-aos-delay="300"><a href="about.html" class="btn btn-primary">Read more</a></p>
 					</div>
 				</div>
 				
@@ -157,138 +170,138 @@
 	<div class="section service-section-1">
 		<!-- Container for services section -->
 		<div class="container my-5 py-5">
-		<div class="row">
-			<div class="col-lg-6 mx-auto">
-			<p class="h1 fw-bold text-center pb-4">Our Service</p>
-			</div>
-		</div>
-
-		<!-- Services grid -->
-		<div class="row g-4 g-sm-5">
-			<!-- Service card 1 -->
-			<div class="col-lg-4" data-aos="flip-right">
-				<div class="card border-0 shadow-lg rounded-4 overflow-hidden h-100">
-					
-					<!-- Image block -->
-					<div style="height: 220px; overflow: hidden;">
-					<img src="images/Services/Ticketing.jpg" alt="Ticketing"
-						class="img-fluid w-100 h-100"
-						style="object-fit: cover; transition: transform 0.4s ease;">
-					</div>
-
-					<!-- Info box below image -->
-					<div class="bg-light text-center p-4">
-						<h4 class="mb-0 fw-semibold text-dark">Ticketing</h4>
-						<p class="text-muted small mt-2">Flight tickets, train bookings, and more — made easy and affordable.</p>
-					</div>
+			<div class="row">
+				<div class="col-lg-6 mx-auto">
+				<p class="h1 fw-bold text-center pb-4">Our Service</p>
 				</div>
 			</div>
 
-			<!-- Service card 2 -->
-			<div class="col-lg-4" data-aos="zoom-out">
-				<div class="card border-0 shadow-lg rounded-4 overflow-hidden h-100">
-					
-					<!-- Image block -->
-					<div style="height: 220px; overflow: hidden;">
-						<img src="images/Services/Hotels & Nile Cruises.png" alt="Hotels & Nile Cruises"
+			<!-- Services grid -->
+			<div class="row g-4 g-sm-5">
+				<!-- Service card 1 -->
+				<div class="col-lg-4" data-aos="flip-right">
+					<div class="card border-0 shadow-lg rounded-4 overflow-hidden h-100">
+						
+						<!-- Image block -->
+						<div style="height: 220px; overflow: hidden;">
+						<img src="images/Services/Ticketing.jpg" alt="Ticketing"
 							class="img-fluid w-100 h-100"
 							style="object-fit: cover; transition: transform 0.4s ease;">
-					</div>
+						</div>
 
-					<!-- Info box below image -->
-					<div class="bg-light text-center p-4">
-						<h4 class="mb-0 fw-semibold text-dark">Hotels & Nile Cruises</h4>
-						<p class="text-muted small mt-2">Flight tickets, train bookings, and more — made easy and affordable.</p>
-					</div>
-				</div>
-			</div>
-
-
-			<!-- Service card 3 -->
-			<div class="col-lg-4"data-aos="flip-left">
-				<div class="card border-0 shadow-lg rounded-4 overflow-hidden h-100">
-					
-					<!-- Image block -->
-					<div style="height: 220px; overflow: hidden;">
-						<img src="images/Services/Haj & Umrah Services.avif" alt="Haj & Umrah Services"
-							class="img-fluid w-100 h-100"
-							style="object-fit: cover; transition: transform 0.4s ease;">
-					</div>
-
-					<!-- Info box below image -->
-					<div class="bg-light text-center p-4">
-						<h4 class="mb-0 fw-semibold text-dark">Haj & Umrah Services</h4>
-						<p class="text-muted small mt-2">Flight tickets, train bookings, and more — made easy and affordable.</p>
+						<!-- Info box below image -->
+						<div class="bg-light text-center p-4">
+							<h4 class="mb-0 fw-semibold text-dark">Ticketing</h4>
+							<p class="text-muted small mt-2">Flight tickets, train bookings, and more — made easy and affordable.</p>
+						</div>
 					</div>
 				</div>
-			</div>
 
+				<!-- Service card 2 -->
+				<div class="col-lg-4" data-aos="zoom-out">
+					<div class="card border-0 shadow-lg rounded-4 overflow-hidden h-100">
+						
+						<!-- Image block -->
+						<div style="height: 220px; overflow: hidden;">
+							<img src="images/Services/Hotels & Nile Cruises.png" alt="Hotels & Nile Cruises"
+								class="img-fluid w-100 h-100"
+								style="object-fit: cover; transition: transform 0.4s ease;">
+						</div>
 
-			<!-- Service card 4 -->
-			<div class="col-lg-4" data-aos="flip-right">
-				<div class="card border-0 shadow-lg rounded-4 overflow-hidden h-100">
-					
-					<!-- Image block -->
-					<div style="height: 220px; overflow: hidden;">
-						<img src="images/Services/Beach Tourism.jfif" alt="Beach Tourism"
-							class="img-fluid w-100 h-100"
-							style="object-fit: cover; transition: transform 0.4s ease;">
-					</div>
-
-					<!-- Info box below image -->
-					<div class="bg-light text-center p-4">
-						<h4 class="mb-0 fw-semibold text-dark">Beach Tourism</h4>
-						<p class="text-muted small mt-2">Flight tickets, train bookings, and more — made easy and affordable.</p>
-					</div>
-				</div>
-			</div>
-
-
-			<!-- Service card 5 -->
-			<div class="col-lg-4" data-aos="zoom-out">
-				<div class="card border-0 shadow-lg rounded-4 overflow-hidden h-100">
-					
-					<!-- Image block -->
-					<div style="height: 220px; overflow: hidden;">
-						<img src="images/Services/Car & Limousine Hire.jpg" alt="Car & Limousine Hire"
-							class="img-fluid w-100 h-100"
-							style="object-fit: cover; transition: transform 0.4s ease;">
-					</div>
-
-					<!-- Info box below image -->
-					<div class="bg-light text-center p-4">
-						<h4 class="mb-0 fw-semibold text-dark">Car & Limousine Hire</h4>
-						<p class="text-muted small mt-2">Flight tickets, train bookings, and more — made easy and affordable.</p>
+						<!-- Info box below image -->
+						<div class="bg-light text-center p-4">
+							<h4 class="mb-0 fw-semibold text-dark">Hotels & Nile Cruises</h4>
+							<p class="text-muted small mt-2">Flight tickets, train bookings, and more — made easy and affordable.</p>
+						</div>
 					</div>
 				</div>
-			</div>
 
 
-			<!-- Service card 6 -->
-			<div class="col-lg-4" data-aos="flip-left">
-				<div class="card border-0 shadow-lg rounded-4 overflow-hidden h-100">
-					
-					<!-- Image block -->
-					<div style="height: 220px; overflow: hidden;">
-						<img src="images/Services/Classic and Luxury Tours.webp" alt="Ticketing"
-							class="img-fluid w-100 h-100"
-							style="object-fit: cover; transition: transform 0.4s ease;">
-					</div>
+				<!-- Service card 3 -->
+				<div class="col-lg-4"data-aos="flip-left">
+					<div class="card border-0 shadow-lg rounded-4 overflow-hidden h-100">
+						
+						<!-- Image block -->
+						<div style="height: 220px; overflow: hidden;">
+							<img src="images/Services/Haj & Umrah Services.avif" alt="Haj & Umrah Services"
+								class="img-fluid w-100 h-100"
+								style="object-fit: cover; transition: transform 0.4s ease;">
+						</div>
 
-					<!-- Info box below image -->
-					<div class="bg-light text-center p-4">
-						<h4 class="mb-0 fw-semibold text-dark">Classic and Luxury Tours</h4>
-						<p class="text-muted small mt-2">Flight tickets, train bookings, and more — made easy and affordable.</p>
+						<!-- Info box below image -->
+						<div class="bg-light text-center p-4">
+							<h4 class="mb-0 fw-semibold text-dark">Haj & Umrah Services</h4>
+							<p class="text-muted small mt-2">Flight tickets, train bookings, and more — made easy and affordable.</p>
+						</div>
 					</div>
 				</div>
+
+
+				<!-- Service card 4 -->
+				<div class="col-lg-4" data-aos="flip-right">
+					<div class="card border-0 shadow-lg rounded-4 overflow-hidden h-100">
+						
+						<!-- Image block -->
+						<div style="height: 220px; overflow: hidden;">
+							<img src="images/Services/Beach Tourism.jfif" alt="Beach Tourism"
+								class="img-fluid w-100 h-100"
+								style="object-fit: cover; transition: transform 0.4s ease;">
+						</div>
+
+						<!-- Info box below image -->
+						<div class="bg-light text-center p-4">
+							<h4 class="mb-0 fw-semibold text-dark">Beach Tourism</h4>
+							<p class="text-muted small mt-2">Flight tickets, train bookings, and more — made easy and affordable.</p>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- Service card 5 -->
+				<div class="col-lg-4" data-aos="zoom-out">
+					<div class="card border-0 shadow-lg rounded-4 overflow-hidden h-100">
+						
+						<!-- Image block -->
+						<div style="height: 220px; overflow: hidden;">
+							<img src="images/Services/Car & Limousine Hire.jpg" alt="Car & Limousine Hire"
+								class="img-fluid w-100 h-100"
+								style="object-fit: cover; transition: transform 0.4s ease;">
+						</div>
+
+						<!-- Info box below image -->
+						<div class="bg-light text-center p-4">
+							<h4 class="mb-0 fw-semibold text-dark">Car & Limousine Hire</h4>
+							<p class="text-muted small mt-2">Flight tickets, train bookings, and more — made easy and affordable.</p>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- Service card 6 -->
+				<div class="col-lg-4" data-aos="flip-left">
+					<div class="card border-0 shadow-lg rounded-4 overflow-hidden h-100">
+						
+						<!-- Image block -->
+						<div style="height: 220px; overflow: hidden;">
+							<img src="images/Services/Classic and Luxury Tours.webp" alt="Ticketing"
+								class="img-fluid w-100 h-100"
+								style="object-fit: cover; transition: transform 0.4s ease;">
+						</div>
+
+						<!-- Info box below image -->
+						<div class="bg-light text-center p-4">
+							<h4 class="mb-0 fw-semibold text-dark">Classic and Luxury Tours</h4>
+							<p class="text-muted small mt-2">Flight tickets, train bookings, and more — made easy and affordable.</p>
+						</div>
+					</div>
+				</div>
+
 			</div>
 
-		</div>
-
-		<!-- Show More button -->
-		<div class="mt-5 text-center">
-			<a class="btnn-two mb-5 fw-bold" href="services.html">SHOW MORE</a>
-		</div>
+			<!-- Show More button -->
+			<div class="mt-5 text-center">
+				<a class="btnn-two mb-5 fw-bold" href="services.html">SHOW MORE</a>
+			</div>
 		</div>
 	</div>
 
@@ -303,71 +316,84 @@
 				</div>
 			</div>
 
-			<ul class="slider_imgs list-unstyled d-flex flex-wrap justify-content-center mb-5">
-				<!-- First group of logos -->
-                        <li><img class="img-fluid" src="images/slider/k1gjY_Me_400x400.jpg" alt="Town Team" style="max-width: 100px;"></li>
-                        <li><img class="img-fluid" src="images/slider/mediadr.sis.gov.png" alt="وزارة الشباب" style="max-width: 100px;"></li>
-                        <li><img class="img-fluid" src="images/slider/2169997_0.jpg" alt="نادي السكة الحديد" style="max-width: 100px;"></li>
-                        <li><img class="img-fluid" src="images/slider/Dakhelia.png" alt="وزارة الداخلية" style="max-width: 100px;"></li>
-                        <li><img class="img-fluid" src="images/slider/images.png" alt="الأكاديمية العربية"style="max-width: 100px;" ></li>
-                        <li><img class="img-fluid" src="images/slider/هيئة-قناة-السويس.webp" alt="هيئة قناة السويس" style="max-width: 100px;"></li>
-                        <li><img class="img-fluid" src="images/slider/images2222.jpeg" alt="شركة الكهرباء" style="max-width: 100px;"></li>
-                        <li><img class="img-fluid" src="images/slider/images1111.jpeg" alt="نادي شركة بورسعيد" style="max-width: 100px;"></li>
-                        <li><img class="img-fluid" src="images/slider/images7777.jpeg" alt="نادي الجمارك" style="max-width: 100px;"></li>
-                        <li><img class="img-fluid" src="images/slider/images999.png" alt="Revesto" style="max-width: 100px;"></li>
-                        <li><img class="img-fluid" src="images/slider/images123.png" alt="Madinaty" style="max-width: 100px;"></li>
-                        <li><img class="img-fluid" src="images/slider/images556.jpeg" alt="Egypt Pentathlon" style="max-width: 100px;"></li>
-                        <li><img class="img-fluid" src="images/slider/وزارة-الصحةjpg.webp" alt="وزارة الصحة" style="max-width: 100px;"></li>
-			</ul>
+		<div class="slider-container" style="overflow: hidden;">
+			<div class="slider-track d-flex" style="animation: scroll 30s linear infinite;">
+				<ul class="slider_imgs list-unstyled d-flex align-items-center flex-nowrap mb-5" style="margin: 0; padding: 0;">
+				<!-- Duplicate the images for infinite effect -->
+				<!-- START logos -->
+				<li><img class="img-fluid" src="images/slider/k1gjY_Me_400x400.jpg" alt="Town Team" style="max-width: 100px;"></li>
+				<li><img class="img-fluid" src="images/slider/mediadr.sis.gov.png" alt="وزارة الشباب" style="max-width: 100px;"></li>
+				<li><img class="img-fluid" src="images/slider/2169997_0.jpg" alt="نادي السكة الحديد" style="max-width: 100px;"></li>
+				<li><img class="img-fluid" src="images/slider/Dakhelia.png" alt="وزارة الداخلية" style="max-width: 100px;"></li>
+				<li><img class="img-fluid" src="images/slider/images.png" alt="الأكاديمية العربية" style="max-width: 100px;"></li>
+				<li><img class="img-fluid" src="images/slider/هيئة-قناة-السويس.webp" alt="هيئة قناة السويس" style="max-width: 100px;"></li>
+				<li><img class="img-fluid" src="images/slider/images2222.jpeg" alt="شركة الكهرباء" style="max-width: 100px;"></li>
+				<li><img class="img-fluid" src="images/slider/images1111.jpeg" alt="نادي شركة بورسعيد" style="max-width: 100px;"></li>
+				<li><img class="img-fluid" src="images/slider/images7777.jpeg" alt="نادي الجمارك" style="max-width: 100px;"></li>
+				<li><img class="img-fluid" src="images/slider/images999.png" alt="Revesto" style="max-width: 100px;"></li>
+				<li><img class="img-fluid" src="images/slider/images123.png" alt="Madinaty" style="max-width: 100px;"></li>
+				<li><img class="img-fluid" src="images/slider/images556.jpeg" alt="Egypt Pentathlon" style="max-width: 100px;"></li>
+				<li><img class="img-fluid" src="images/slider/وزارة-الصحةjpg.webp" alt="وزارة الصحة" style="max-width: 100px;"></li>
+				<!-- END logos -->
+				<!-- Duplicate for smooth infinite scroll -->
+				<li><img class="img-fluid" src="images/slider/k1gjY_Me_400x400.jpg" alt="" style="max-width: 100px;"></li>
+				<li><img class="img-fluid" src="images/slider/mediadr.sis.gov.png" alt="" style="max-width: 100px;"></li>
+				<li><img class="img-fluid" src="images/slider/2169997_0.jpg" alt="" style="max-width: 100px;"></li>
+				<li><img class="img-fluid" src="images/slider/Dakhelia.png" alt="" style="max-width: 100px;"></li>
+				<li><img class="img-fluid" src="images/slider/images.png" alt="" style="max-width: 100px;"></li>
+				<!-- add more if needed -->
+				</ul>
+			</div>
+		</div>
 
 		</div>
 
 		<!-- Second Slider Section (Partners) -->
-		<div class="row mt-5"  data-aos="fade-up" data-aos-delay="100">
-			<div class="col-12 text-center">
+		<div class="row mt-5 w-100"  data-aos="fade-up" data-aos-delay="100">
+			<div class="col-12 text-center mb-5">
 				<h2 class="display-4 fw-bold text-primary">Our Partners in Success</h2>
 				<p class="text-muted">We work alongside the best in the industry</p>
 			</div>
 			
-			<ul class="slider_imgs_2 list-unstyled d-flex flex-wrap justify-content-center mb-5">
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/1200px-PURPLE_flyadeal_logo.jpg" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/1661395244226.qatar_lgo_400x300.jpg" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/1738668979435.png" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/1739e106.jpg" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/3-2.webp" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/air-arabia-1680767881951.jpg" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/alitalia-1.svg" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/continental-plaza-beach.jpg" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/EgyptAir-Logo.wine.png" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/Hollywood-Sharm-El-Sheikh-Egypt-17768-1464022715-og.webp" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/Think-Marketing-Article-Mövenpick-Hotels-Resorts-unveils-fresh-new-logo.png" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/air-arabia-1680767881951.jpg" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/alitalia-1.svg" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/conrad-large.png" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/etihad-logo-for-pr.avif" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/images12.png" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/images123.png" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/images23455.png" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/images44456.png" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/images76564.png" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/images78790.jpeg" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/J9.webp" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/logo-british-airways.png" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/logo-flynas.png" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/1661395244226.qatar_lgo_400x300.jpg" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/1738668979435.png" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/1739e106.jpg" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/3-2.webp" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/353967053.jpg" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/alitalia-1.svg" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/EgyptAir-Logo.wine.png" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/alitalia-1.svg" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/images23455.png" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/images78790.jpeg" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/images999.png" alt="" style="max-width: 100px;"></li>
-				<li class="mx-3"><img class="img-fluid" src="images/slider-2/logo-british-airways.png" alt="" style="max-width: 100px;"></li>
-									
-			</ul>
+			<div class="slider-container" style="overflow: hidden;">
+				<div class="slider-track" style="animation: scroll 30s linear infinite;">
+					<ul class="slider_imgs list-unstyled d-flex align-items-center flex-nowrap mb-5" style="margin: 0; padding: 0;">				<li class="mx-3"><img class="img-fluid" src="images/slider-2/1200px-PURPLE_flyadeal_logo.jpg" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/1661395244226.qatar_lgo_400x300.jpg" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/1738668979435.png" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/1739e106.jpg" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/3-2.webp" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/air-arabia-1680767881951.jpg" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/continental-plaza-beach.jpg" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/EgyptAir-Logo.wine.png" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/Hollywood-Sharm-El-Sheikh-Egypt-17768-1464022715-og.webp" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/Think-Marketing-Article-Mövenpick-Hotels-Resorts-unveils-fresh-new-logo.png" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/air-arabia-1680767881951.jpg" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/conrad-large.png" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/etihad-logo-for-pr.avif" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/images12.png" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/images123.png" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/images23455.png" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/images44456.png" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/images76564.png" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/images78790.jpeg" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/J9.webp" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/logo-british-airways.png" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/logo-flynas.png" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/1661395244226.qatar_lgo_400x300.jpg" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/1738668979435.png" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/1739e106.jpg" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/3-2.webp" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/353967053.jpg" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/EgyptAir-Logo.wine.png" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/alitalia-1.svg" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/images23455.png" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/images78790.jpeg" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/images999.png" alt="" style="max-width: 100px;"></li>
+						<li class="mx-3"><img class="img-fluid" src="images/slider-2/logo-british-airways.png" alt="" style="max-width: 100px;"></li>
+											
+					</ul>
+				</div>
+			</div>
 		</div>
 
 	</div>
@@ -388,19 +414,17 @@
 		</div>
 	</div>
 
-
-
 	<!-- ========== Contact Us Section ========== -->
 	<section class="contact-section py-5" style="background-color: #f4f7f9;">
 		<div class="container">
 			<div class="row mb-5">
-				<div class="col text-center" data-aos="fade-left" data-aos-duration="500">
+				<div class="col text-center" data-aos="fade-right" data-aos-duration="500">
 					<h2 class="display-5 fw-bold text-dark">Contact Us</h2>
 					<p class="text-muted">We’re here to help — reach out to us anytime</p>
 				</div>
 			</div>
 
-			<div class="row text-center g-4" data-aos="fade-left" data-aos-duration="600">
+			<div class="row text-center g-4" data-aos="fade-right" data-aos-duration="600">
 				<!-- Location -->
 				<div class="col-lg-4 col-md-6">
 					<div class="contact-card p-4 rounded bg-white shadow-sm h-100">
@@ -413,7 +437,7 @@
 				</div>
 
 				<!-- Email -->
-				<div class="col-lg-4 col-md-6" data-aos="fade-left" data-aos-duration="700">
+				<div class="col-lg-4 col-md-6" data-aos="fade-right" data-aos-duration="700">
 					<div class="contact-card p-4 rounded bg-white shadow-sm h-100">
 						<i class="bi bi-envelope-paper-fill display-5 text-success mb-3"></i>
 						<h5 class="fw-semibold mb-2 text-dark">Email Us</h5>
@@ -426,7 +450,7 @@
 				</div>
 
 				<!-- Phone -->
-				<div class="col-lg-4 col-md-12" data-aos="fade-left" data-aos-duration="800">
+				<div class="col-lg-4 col-md-12" data-aos="fade-right" data-aos-duration="800">
 					<div class="contact-card p-4 rounded bg-white shadow-sm h-100">
 						<i class="bi bi-telephone-inbound-fill display-5 text-warning mb-3"></i>
 						<h5 class="fw-semibold mb-2 text-dark">Call Us</h5>
@@ -439,9 +463,6 @@
 			</div>
 		</div>
 	</section>
-
-
-
 
 	<!-- START: Google Map Section -->
 	<div class="map-container">
@@ -488,8 +509,6 @@
 						<ul class="list-unstyled float-left links">
 							<li class="mx-3"><a href="#">About us</a></li>
 							<li class="mx-3"><a href="#">Services</a></li>
-							<li class="mx-3"><a href="#">News</a></li>
-							<li class="mx-3"><a href="#">Careers</a></li>
 							<li class="mx-3"><a href="#">Contact</a></li>
 						</ul>
 					</div> <!-- /.widget -->
@@ -501,8 +520,6 @@
 						<ul class="list-unstyled float-left links">
 							<li class="mx-3"><a href="#">About us</a></li>
 							<li class="mx-3"><a href="#">Services</a></li>
-							<li class="mx-3"><a href="#">News</a></li>
-							<li class="mx-3"><a href="#">Careers</a></li>
 							<li class="mx-3"><a href="#">Contact</a></li>
 						</ul>
 					</div> <!-- /.widget -->
@@ -512,18 +529,26 @@
 				<div class="col-lg-3">
 					<div class="widget">
 						<h3>Contact</h3>
-						<address>43 Raymouth Rd. Baltemoer, London 3910</address>
+						<address>Elite Tower - Zahraa El Maadi 4th Floor, App.7 Cairo, Egypt</address>
 						<ul class="list-unstyled links mb-4">
-							<li class="mx-3"><a href="tel://11234567890">+1(123)-456-7890</a></li>
-							<li class="mx-3"><a href="tel://11234567890">+1(123)-456-7890</a></li>
-							<li class="mx-3"><a href="mailto:info@mydomain.com">info@mydomain.com</a></li>
+							<p class="mb-1"><a href="tel:+201033171655" class="text-decoration-none text-muted">(+02) 01033171655</a></p>
+							<p class="mb-1"><a href="tel:+201033118552" class="text-decoration-none text-muted">(+02) 01033118552</a></p>
+							<p class="mb-1"><a href="tel:+201080829499" class="text-decoration-none text-muted">(+02) 01080829499</a></p>
+							<p class="mb-0"><a href="tel:+20227548466" class="text-decoration-none text-muted">(+02) 27548466</a></p>
+							<li class="mx-3"><a href="mailto:europe.gatway.co@gmail.com">info@mydomain.com</a></li>
 						</ul>
 					</div> <!-- /.widget -->
 				</div> <!-- /.col-lg-3 -->
 
 			</div> <!-- /.row -->
 
-
+			<hr>
+			<div class="footer-bottom text-center pt-3">
+				<p class="copyright_text">
+					Designed By <a style="text-decoration: underline;" href="https://www.linkedin.com/company/amstechegyptt/">AMS Tech</a> 2025 <span id="copyright-year"></span> • <a style="text-decoration: underline;" href="privacy.html">Privacy Policy</a>
+				</p>
+			</div>
+			
 		</div> <!-- /.site-footer -->
 
 	</div>
@@ -543,6 +568,7 @@
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
 	<!-- AOS Config js -->
 	<script src="js/AOS.config.js"></script>
+	<script src="js/navbar.js"></script>
 
 </body>
 </html>
