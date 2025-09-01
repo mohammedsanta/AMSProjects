@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Tajawal:wght@400;700&display=swap');
+
+body {
+  font-family: 'Tajawal', 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f7fa;
+  color: #222;
+}
+
+/* ===== Shared Section Style ===== */
+.section-logos {
+  text-align: center;
+  padding: 80px 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.section-logos::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.6); /* dark overlay */
+  z-index: -1;
+}
+
+/* ===== Titles ===== */
+.section-title {
+  font-size: 32px;
+  line-height: 1.8;
+  font-weight: 600;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.section-title span {
+  font-size: 22px;
+  color: #ffdd57;
+  display: inline-block;
+}
+
+/* ===== Logos Grid ===== */
+.logos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.logo-img {
+  max-height: 70px;
+  max-width: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: grayscale(100%) brightness(90%);
+  opacity: 0.85;
+}
+
+.logo-img:hover {
+  transform: scale(1.05);
+  filter: grayscale(0%) brightness(100%);
+  opacity: 1;
+}
+
+/* ===== Responsive Tweaks ===== */
+@media (max-width: 600px) {
+  .section-title {
+    font-size: 24px;
+  }
+
+  .section-title span {
+    font-size: 18px;
+  }
+}
