@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Cairo', sans-serif;
+}
+
+.vision-mission-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 4rem 2rem;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.vision-mission-image {
+  flex: 1 1 45%;
+  max-width: 600px;
+}
+
+.vision-mission-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.vision-mission-content {
+  flex: 1 1 45%;
+  text-align: right;
+}
+
+.vision-mission-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #052C65;
+}
+
+.vision-box, .mission-box {
+  display: flex;
+  gap: 2rem;
+  direction: rtl;
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  align-items: flex-start;
+}
+
+.vision-box {
+  background: #052C65;
+  color: #fff;
+}
+
+.mission-box {
+  background: #f9f9f9;
+  color: #333;
+}
+
+.vision-icon, .mission-icon {
+  width: 100px;
+  flex-shrink: 0;
+}
+
+.box-text h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.75rem;
+}
+
+.box-text p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.box-text ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.box-text li {
+  position: relative;
+  padding-right: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+}
+
+.box-text li::before {
+  content: "✔";
+  position: absolute;
+  right: 0;
+  color: #0070d7;
+  font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .vision-mission-section {
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+
+  .vision-mission-image,
+  .vision-mission-content {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .vision-box, .mission-box {
+    flex-direction: column;
+    text-align: right;
+    gap: 1rem;
+  }
+
+.vision-icon, .mission-icon {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+
+  .vision-mission-content h1 {
+    font-size: 2rem;
+  }
+
+  .box-text h2 {
+    font-size: 1.4rem;
+  }
+
+  .box-text li {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .vission-box-icon, .mission-box-icon {
+    width: 60px;
+    height: 60px;
+  }
+}

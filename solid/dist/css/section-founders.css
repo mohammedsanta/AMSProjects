@@ -1,0 +1,82 @@
+body {
+  font-family: 'Tajawal', 'Poppins', sans-serif;
+}
+
+.section-founders {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  font-family: 'Tajawal', 'Poppins', sans-serif;
+}
+
+.container-founders {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.founders-title-en,
+.founders-title-ar {
+  text-align: center;
+  margin: 0;
+}
+
+.founders-title-en {
+  font-size: 32px;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.founders-title-ar {
+  font-size: 28px;
+  font-family: 'Tajawal', sans-serif;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.founders-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.founder-block {
+  flex: 1 1 45%;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.05);
+}
+
+.founder-name-ar {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: 'Tajawal', sans-serif;
+  color: #222;
+}
+
+.founder-name-en {
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.founder-timeline {
+  list-style: disc;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  color: #444;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.founder-timeline li {
+  margin-bottom: 10px;
+}
+
+.founder-banks p {
+  margin: 8px 0;
+  color: #555;
+  font-size: 14px;
+  font-weight: 300;
+}

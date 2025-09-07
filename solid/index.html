@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Solid Template</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="dist/css/goals.css">
+    <link rel="stylesheet" href="dist/css/vission-mission.css">
+    <link rel="stylesheet" href="dist/css/services.css">
+    <link rel="stylesheet" href="dist/css/about-section.css">
+    <link rel="stylesheet" href="dist/css/section-founders.css">
+    <link rel="stylesheet" href="dist/css/experience.css">
+    <link rel="stylesheet" href="dist/css/bank-companies.css">
+    <link rel="stylesheet" href="dist/css/get-in-touch.css">
+    <link rel="stylesheet" href="dist/css/header.css">
+	<script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+</head>
+<body class="is-boxed has-animations">
+
+    <div class="language-toggle" style="
+            position: fixed;
+            bottom: 0px;
+            z-index: 10;
+        ">
+        <button id="btn-en">English</button>
+        <button id="btn-ar">عربي</button>
+    </div>
+
+    <div class="body-wrap">
+        <header class="site-header" style="transform: translateY(0px); opacity: 1;">
+
+            <div class="container">
+                <div class="site-header-inner">
+                    <!-- Logo -->
+                    <div class="brand header-brand">
+                        <a href="#">
+                            <img class="header-logo-image" src="dist/images/logo.png" alt="Logo">
+                        </a>
+                    </div>
+
+                    <!-- Navigation Menu -->
+                    <nav class="header-nav">
+                    <ul class="nav-list">
+                        <li>
+                        <a href="#home" class="lang en">Home</a>
+                        <a href="#home" class="lang ar" style="display: none;">الرئيسية</a>
+                        </li>
+                        <li>
+                        <a href="#about" class="lang en">About</a>
+                        <a href="#about" class="lang ar" style="display: none;">من نحن</a>
+                        </li>
+                        <li>
+                        <a href="#services" class="lang en">Services</a>
+                        <a href="#services" class="lang ar" style="display: none;">خدماتنا</a>
+                        </li>
+                        <li>
+                        <a href="#contact" class="lang en">Contact</a>
+                        <a href="#contact" class="lang ar" style="display: none;">تواصل معنا</a>
+                        </li>
+                    </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+
+        <main>
+
+            <section id="home" class="hero">
+                <div class="container-header">
+
+                    <div class="hero-inner">
+
+                        <!-- English Content -->
+                        <div class="hero-copy lang en" dir="ltr">
+                            <h1 class="hero-title mt-0">Elite Recover</h1>
+                            <h4>Services & Collection</h4>
+                            <p class="hero-paragraph">Smart solutions for asset and debt recovery.</p>
+                            <div class="hero-cta">
+                            <a class="button button-primary" href="#">Pre order now</a>
+                            <a class="button" href="#">Get in touch</a>
+                            </div>
+                        </div>
+
+                        <!-- Arabic Content -->
+                        <div class="hero-copy lang ar" dir="rtl" style="display:none;">
+                            <h1 class="hero-title mt-0">Elite Recover</h1>
+                            <h4>الخدمات والتحصيل</h4>
+                            <p class="hero-paragraph">حلول ذكية لاسترداد الأصول والديون المتعثرة.</p>
+                            <div class="hero-cta">
+                            <a class="button button-primary" href="#">اطلب الآن</a>
+                            <a class="button" href="#">تواصل معنا</a>
+                            </div>
+                        </div>
+
+                        <div class="hero-figure anime-element">
+                            <div class="custom-shape">
+                            <img src="https://global.ariseplay.com/amg/www.thisdaylive.com/uploads/1-139.jpg" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section class="section-about-us" id="about">
+                <div class="container">
+                    <div class="about-us-wrapper">
+
+                    <!-- Image Side -->
+                    <div class="about-us-image">
+                        <img src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg" alt="Elite Recover Team">
+                    </div>
+
+                    <!-- Content Side -->
+                    <div class="about-us-content">
+
+                        <!-- English Content -->
+                        <div class="lang en" dir="ltr" style="display: block;">
+                        <h1 class="about-us-title">About Us</h1>
+                        <div class="about-us-description-box">
+                            <div class="about-us-heading-group">
+                            <h2>We are Certified Experts</h2>
+                            <h2>Providing Solutions in Non-performing Debt Management</h2>
+                            </div>
+                            <div class="about-us-bullet-list">
+                            <p>Comprehensive strategy based on</p>
+                            <p>Artificial intelligence in data analysis</p>
+                            <p>Scientific follow-up strategy</p>
+                            <p>Legal expertise in judicial collection</p>
+                            <p>Latest global methodologies in negotiation</p>
+                            </div>
+                        </div>
+                        </div>
+
+                        <!-- Arabic Content -->
+                        <div class="lang ar" dir="rtl" style="display: none;">
+                        <h1 class="about-us-title">نعرفكم بأنفسنا</h1>
+                        <div class="about-us-description-box">
+                            <div class="about-us-heading-group">
+                            <h2>نحن الخبراء المعتمدون</h2>
+                            <h2>في إدارة الديون المتعثرة نقدم حلولاً</h2>
+                            </div>
+                            <div class="about-us-bullet-list">
+                            <p>استراتيجية متكاملة تعتمد على</p>
+                            <p>الذكاء الاصطناعي في تحليل البيانات</p>
+                            <p>الاستراتيجية العلمية في المتابعة</p>
+                            <p>الخبرات القانونية في التحصيل القضائي</p>
+                            <p>أحدث المنهجيات العالمية في التفاوض</p>
+                            </div>
+                        </div>
+                        </div>
+
+                    </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="vision-mission-section">
+
+            <!-- English Content -->
+            <div class="lang en" dir="ltr">
+                <div class="vision-mission-wrapper">
+                <!-- Left Image -->
+                <div class="vision-mission-image">
+                    <img src="https://www.parkerrussell.rs/wp-content/uploads/2025/03/3.4.png" alt="Vision and Mission">
+                </div>
+
+                <!-- Right Content -->
+                <div class="vision-mission-content">
+                    <h1>Our Vision & Mission</h1>
+
+                    <!-- Vision -->
+                    <div class="vision-box">
+                    <img src="dist/images/icons/vision.png" alt="Vision Icon" class="vision-box-icon">
+                    <div class="vision-box-txt">
+                    <h2>Our Mission</h2>
+                        <p>To be the strategic partner of the financial sector in achieving:</p>
+                        <ul>
+                        <li>Highest recovery rates in the region</li>
+                        <li>Sustainable financial solutions for bad debts</li>
+                        <li>Building a safer credit system</li>
+                        </ul>
+                    </div>
+                    </div>
+
+                    <!-- Mission -->
+                    <div class="mission-box">
+                    <img src="dist/images/icons/vision.png" alt="Mission Icon" class="mission-box-icon">
+                    <div class="mission-box-txt">
+                        <h2 style="color: black;">Our Vission</h2>
+                        <ul>
+                        <li>Convert distressed assets into cash liquidity</li>
+                        <li>Proactively manage credit risks</li>
+                        <li>Develop smart restructuring programs</li>
+                        <li>Provide predictive analytics to reduce defaults</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <!-- Arabic Content -->
+            <div class="lang ar" dir="rtl" style="display: none;">
+                <div class="vision-mission-wrapper">
+                <!-- Left Image -->
+                <div class="vision-mission-image">
+                    <img src="https://www.parkerrussell.rs/wp-content/uploads/2025/03/3.4.png" alt="الرؤية والرسالة">
+                </div>
+
+                <!-- Right Content -->
+                <div class="vision-mission-content">
+                    <h1>رؤيتنا و مهمتنا</h1>
+
+                    <!-- Vision -->
+                    <div class="vision-box">
+                    <img src="dist/images/icons/vision.png" alt="أيقونة الرؤية" class="vision-box-icon">
+                    <div class="vision-box-txt">
+                        <h2>رؤيتنا</h2>
+                        <p>أن نكون الشريك الاستراتيجي للقطاع المالي في تحقيق:</p>
+                        <ul>
+                        <li>أعلى معدلات استرداد في المنطقة</li>
+                        <li>حلول مالية مستدامة للديون المعدومة</li>
+                        <li>بناء منظومة ائتمانية أكثر أماناً</li>
+                        </ul>
+                    </div>
+                    </div>
+
+                    <!-- Mission -->
+                    <div class="mission-box">
+                    <img src="dist/images/icons/vision.png" alt="أيقونة المهمة" class="mission-box-icon">
+                    <div class="mission-box-txt">
+                        <h2 style="color: black;">مهمتنا</h2>
+                        <ul>
+                        <li>تحويل الأصول المتعثرة إلى سيولة نقدية</li>
+                        <li>إدارة مخاطر الائتمان بشكل استباقي</li>
+                        <li>تطوير برامج إعادة الهيكلة الذكية</li>
+                        <li>تقديم تحليلات تنبؤية للحد من التعثر</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            </section>
+
+            <section class="elite-hero-section" dir="rtl">
+
+                <!-- Left Side: Image & Graph -->
+                <div class="elite-hero-image">
+                <div class="hero-headline">
+                    <h1>Goals</h1>
+                    <div class="growth-chart-bars">
+                    <div class="growth-bar bar-small"></div>
+                    <div class="growth-bar bar-medium"></div>
+                    <div class="growth-bar bar-large"></div>
+                    </div>
+                </div>
+                </div>
+
+                <!-- Right Side: Goals Content -->
+                <div class="goals-overview">
+
+                    <!-- English Content (Default) -->
+                    <div class="lang en" style="display: block;">
+                        <h2>Our Goals</h2>
+
+                        <div class="goal-point">
+                            <div class="goal-title">1. Maximize Debt Recovery Rates</div>
+                            <p class="goal-details">
+                                • Achieve <strong>90%+</strong> recovery rate for debts under 1 year<br>
+                                • Implement <strong>AI-driven collection strategies</strong> to improve efficiency
+                            </p>
+                        </div>
+
+                        <div class="goal-point">
+                            <div class="goal-title">2. Enhance Client Financial Health</div>
+                            <p class="goal-details">
+                                • Reduce <strong>non-performing loans (NPLs)</strong> by 40% for our partners<br>
+                                • Provide <strong>smart restructuring plans</strong> to prevent future defaults
+                            </p>
+                        </div>
+
+                        <div class="goal-point">
+                            <div class="goal-title">3. Lead in Ethical Debt Collection</div>
+                            <p class="goal-details">
+                                • Maintain 100% compliance with local & international regulations<br>
+                                • Set new standards for fair debt collection practices
+                            </p>
+                        </div>
+
+                        <div class="goal-point">
+                            <div class="goal-title">4. Deliver Unmatched Client Experience</div>
+                            <p class="goal-details">
+                                • Maintain 95%+ client satisfaction rate<br>
+                                • Provide 24/7 multilingual support for global clients
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Arabic Content (Hidden by Default) -->
+                    <div class="lang ar" style="display: none;">
+                        <h2>أهدافنا</h2>
+
+                        <div class="goal-point">
+                            <div class="goal-title">1. زيادة معدلات استرداد الديون</div>
+                            <p class="goal-details">
+                                • تحقيق <strong>90%+</strong> معدل استرداد للديون لمدة أقل من سنة<br>
+                                • تنفيذ <strong>استراتيجيات تحصيل مدفوعة بالذكاء الاصطناعي</strong> لتحسين الكفاءة
+                            </p>
+                        </div>
+
+                        <div class="goal-point">
+                            <div class="goal-title">2. تعزيز الصحة المالية للعملاء</div>
+                            <p class="goal-details">
+                                • تقليل <strong>القروض المتعثرة</strong> بنسبة 40% لشركائنا<br>
+                                • تقديم <strong>خطط إعادة هيكلة ذكية</strong> لتجنب التعثر مستقبلاً
+                            </p>
+                        </div>
+
+                        <div class="goal-point">
+                            <div class="goal-title">3. الريادة في التحصيل الأخلاقي</div>
+                            <p class="goal-details">
+                                • الحفاظ على 100% من الامتثال للأنظمة المحلية والدولية<br>
+                                • وضع معايير جديدة لممارسات التحصيل العادل
+                            </p>
+                        </div>
+
+                        <div class="goal-point">
+                            <div class="goal-title">4. تقديم تجربة عميل غير مسبوقة</div>
+                            <p class="goal-details">
+                                • الحفاظ على نسبة رضا العملاء 95% أو أكثر<br>
+                                • تقديم دعم متعدد اللغات على مدار الساعة للعملاء في جميع أنحاء العالم
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </section>
+
+            <section class="elite-services-section" id="services" dir="rtl">
+                <div class="elite-services-container">
+                    <!-- Left Image Side -->
+                    <div class="elite-services-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuhA6HliG2jnmOhpAm2lXyqptOu8og44AZyA&s" alt="Teamwork and Technology">
+                    </div>
+
+                    <!-- Right Services Content -->
+                    <div class="elite-services-content">
+                        <!-- English Content (Default) -->
+                        <div class="lang en" style="display: none;">
+                            <h2 class="services-title">Our Services</h2>
+
+                            <div class="service-card">
+                                <div class="service-number">01</div>
+                                <div class="service-info">
+                                    <h3 class="service-title">Smart Debt Collection</h3>
+                                    <p class="service-desc">
+                                        - Data analysis using predictive algorithms<br>
+                                        - Customer segmentation by risk level<br>
+                                        - AI-powered intensive call campaigns
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="service-card">
+                                <div class="service-number">02</div>
+                                <div class="service-info">
+                                    <h3 class="service-title">Non-Performing Loan (NPL) Management</h3>
+                                    <p class="service-desc">
+                                        - Accurate collateral evaluation<br>
+                                        - Develop sales or restructuring strategies<br>
+                                        - Highly efficient debt portfolio management
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="service-card">
+                                <div class="service-number">03</div>
+                                <div class="service-info">
+                                    <h3 class="service-title">Comprehensive Legal Services</h3>
+                                    <p class="service-desc">
+                                        - Specialized legal team for judicial collections<br>
+                                        - Fast execution of judicial rulings<br>
+                                        - Mediation solutions before resorting to litigation
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Arabic Content (Hidden by default) -->
+                        <div class="lang ar" style="display: block;">
+                            <h2 class="services-title">خدمتنا</h2>
+
+                            <div class="service-card">
+                                <div class="service-number">01</div>
+                                <div class="service-info">
+                                    <h3 class="service-title">التحصيل الذكي للديون</h3>
+                                    <p class="service-desc">
+                                        تحليل البيانات باستخدام خوارزميات التنبؤ<br>
+                                        تصنيف العملاء حسب درجة الخطورة<br>
+                                        حملات اتصال مكثفة مدعومة بالذكاء الاصطناعي
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="service-card">
+                                <div class="service-number">02</div>
+                                <div class="service-info">
+                                    <h3 class="service-title">إدارة الأصول المتعثرة NPL</h3>
+                                    <p class="service-desc">
+                                        تقييم دقيق للضمانات<br>
+                                        تطوير استراتيجيات للبيع أو إعادة الهيكلة<br>
+                                        إدارة محافظ الديون بكفاءة عالية
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="service-card">
+                                <div class="service-number">03</div>
+                                <div class="service-info">
+                                    <h3 class="service-title">الخدمات القانونية المتكاملة</h3>
+                                    <p class="service-desc">
+                                        فريق محاماة متخصص في التحصيل القضائي<br>
+                                        سرعة تنفيذ الأحكام القضائية<br>
+                                        حلول الوساطة قبل اللجوء للقضاء
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-founders" dir="rtl">
+                <div class="container-founders">
+
+                    <!-- English Title -->
+                    <h2 class="founders-title-en lang en" style="display: none;">Founders</h2>
+                    
+                    <!-- Arabic Title -->
+                    <h3 class="founders-title-ar lang ar" style="display: block;">المؤسسون</h3>
+
+                    <div class="founders-wrapper">
+                        <!-- Founder 1: Hany Fathy -->
+                        <div class="founder-block">
+                            <div class="founders-content">
+                                <!-- Arabic Name -->
+                                <p class="founder-name-ar lang ar" style="display: block;">هاني فتحى</p>
+                                
+                                <!-- English Name -->
+                                <p class="founder-name-en lang en" style="display: none;">Hany Fathy</p>
+
+                                <ul class="founder-timeline">
+                                    <li class="lang ar" style="display: block;">خبرة في التحصيل منذ ٢٠٠٧ في أكبر وكالات التحصيل.</li>
+                                    <li class="lang en" style="display: none;">Experience in debt collection since 2007 in the largest collection agencies.</li>
+                                    <li class="lang ar" style="display: block;">٢٠٠٧ - ٢٠١٣: مكتب الدكتور هشام فضلي للتحصيل.</li>
+                                    <li class="lang en" style="display: none;">2007 - 2013: Dr. Hesham Fadhly Collection Office.</li>
+                                    <li class="lang ar" style="display: block;">٢٠١٣ - ٢٠٢٠: الشركة المصرية للخدمات والتحصيل <strong>Head Supervisor</strong>.</li>
+                                    <li class="lang en" style="display: none;">2013 - 2020: Egyptian Debt Collection Services <strong>Head Supervisor</strong>.</li>
+                                    <li class="lang ar" style="display: block;">٢٠٢٠ - ٢٠٢٥ حتى الآن: Elite Recover (<strong>SME & Microfinance</strong>).</li>
+                                    <li class="lang en" style="display: none;">2020 - 2025 until now: Elite Recover (<strong>SME & Microfinance</strong>).</li>
+                                    <li class="lang ar" style="display: block;">عمل مع كبرى البنوك والشركات، منها:</li>
+                                    <li class="lang en" style="display: none;">Worked with major banks and companies, including:</li>
+                                </ul>
+
+                                <div class="founder-banks">
+                                    <p class="lang ar" style="display: block;">Barclays | CIB | سيتي بنك</p>
+                                    <p class="lang en" style="display: none;">Barclays | CIB | Citibank</p>
+                                    <p class="lang ar" style="display: block;">كريدي أجريكول | شركة سهولة</p>
+                                    <p class="lang en" style="display: none;">Credit Agricole | Sohoula Company</p>
+                                    <p class="lang ar" style="display: block;">البنك العربي | بنك المشرق | أبوظبي الإسلامي</p>
+                                    <p class="lang en" style="display: none;">Arab Bank | Mashreq Bank | Abu Dhabi Islamic Bank</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Founder 2: Ahmed Abdelsalam -->
+                        <div class="founder-block">
+                            <div class="founders-content">
+                                <!-- Arabic Name -->
+                                <p class="founder-name-ar lang ar" style="display: block;">احمد عبد السلام</p>
+                                
+                                <!-- English Name -->
+                                <p class="founder-name-en lang en" style="display: none;">Ahmed Abdelsalam</p>
+
+                                <ul class="founder-timeline">
+                                    <li class="lang ar" style="display: block;">خبرة في التحصيل منذ 2009 في الشركة المصرية للخدمات والتحصيل <strong>Head Supervisor</strong>.</li>
+                                    <li class="lang en" style="display: none;">Experience in debt collection since 2009 at Egyptian Debt Collection Services <strong>Head Supervisor</strong>.</li>
+                                    <li class="lang ar" style="display: block;">عمل مع كبرى البنوك والشركات، منهم:</li>
+                                    <li class="lang en" style="display: none;">Worked with major banks and companies, including:</li>
+                                </ul>
+
+                                <div class="founder-banks">
+                                    <p class="lang ar" style="display: block;">بانك سايب | باركليز | التجاري وفا</p>
+                                    <p class="lang en" style="display: none;">SAB Bank | Barclays | Attijariwafa Bank</p>
+                                    <p class="lang ar" style="display: block;">بنك المشرق | ابو ظبي الاسلامي</p>
+                                    <p class="lang en" style="display: none;">Mashreq Bank | Abu Dhabi Islamic Bank</p>
+                                    <p class="lang ar" style="display: block;">شركة فرصة | شركة مباشر</p>
+                                    <p class="lang en" style="display: none;">Forza Company | Mubasher Company</p>
+                                    <p class="lang ar" style="display: block;">كريدي أجريكول | بنك عودة | ميد بنك</p>
+                                    <p class="lang en" style="display: none;">Credit Agricole | Bank Audi | Mid Bank</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+
+            <!-- Major Banks Section -->
+            <section class="section-logos banks" dir="rtl">
+                <h2 class="section-title">
+                    <span class="lang en">PREVIOUS EXPERIENCES<br>With Major Banks</span>
+                    <span class="lang ar" style="display: none;">خبرة سابقة<br>مع البنوك الكبرى</span>
+                </h2>
+
+                <div class="logos-grid">
+                    <img src="dist/images/banks/Barclays.svg" alt="Barclays" class="logo-img" />
+                    <img src="dist/images/banks/Abu_Dhabi.jpg" alt="ADIB" class="logo-img" />
+                    <img src="dist/images/banks/ArabBank.png" alt="Arab Bank" class="logo-img" />
+                    <img src="dist/images/banks/Cib.png" alt="CIB" class="logo-img" />
+                    <img src="dist/images/banks/Credit-Agricole.png" alt="Credit Agricole" class="logo-img" />
+                    <img src="dist/images/banks/saib.png" alt="SAIB" class="logo-img" />
+                </div>
+            </section>
+
+            <!-- Leading Companies Section -->
+            <section class="section-logos companies" dir="rtl">
+                <h2 class="section-title">
+                    <!-- English Version -->
+                    <span class="lang en" style="display: block;">PREVIOUS EXPERIENCES<br>With Leading Companies</span>
+                    
+                    <!-- Arabic Version -->
+                    <span class="lang ar" style="display: none;">التجارب السابقة<br>مع الشركات الرائدة</span>
+                </h2>
+                <div class="logos-grid">
+                    <img src="dist/images/company/forsa.png" alt="Forsa" class="logo-img" />
+                    <img src="dist/images/company/mobasher.png" alt="Mubasher Trade" class="logo-img" />
+                    <img src="dist/images/company/shola.png" alt="Sahooly" class="logo-img" />
+                    <img src="dist/images/company/fawry.png" alt="Fawry" class="logo-img" />
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="contact-section" id="contact" ir="rtl">
+                <div class="contact-container">
+                    
+                    <!-- Left Side: Contact Info -->
+                    <div class="contact-left">
+                        <h2 class="contact-title">
+                            <!-- English content (default) -->
+                            <span class="lang en">Get In Touch</span>
+
+                            <!-- Arabic content -->
+                            <span class="lang ar" style="display: none;">تواصل معنا</span>
+                        </h2>
+                        
+                        <!-- English contact info (default) -->
+                        <div class="lang en">
+                            <p class="contact-info"><strong>Address:</strong><br>23 Emarat Al Aboor, Salah Salem, 13th Floor, Apartment 1, New Cairo</p>
+                            <p class="contact-info"><strong>Phone:</strong><br><a href="tel:01508778477">01508778477</a></p>
+                            <p class="contact-info"><strong>Email:</strong><br><a href="mailto:Hanysal88.2@gmail.com">Hanysal88.2@gmail.com</a></p>
+                            <p class="contact-info"><strong>Website:</strong><br><a href="https://www.eliterecover.com" target="_blank">www.eliterecover.com</a></p>
+                        </div>
+
+                        <!-- Arabic contact info (hidden by default) -->
+                        <div class="lang ar" style="display: none;">
+                            <p class="contact-info"><strong>العنوان:</strong><br>23 إمارة الأبُور، صلاح سالم، الطابق 13، شقة 1، القاهرة الجديدة</p>
+                            <p class="contact-info"><strong>الهاتف:</strong><br><a href="tel:01508778477">01508778477</a></p>
+                            <p class="contact-info"><strong>البريد الإلكتروني:</strong><br><a href="mailto:Hanysal88.2@gmail.com">Hanysal88.2@gmail.com</a></p>
+                            <p class="contact-info"><strong>الموقع الإلكتروني:</strong><br><a href="https://www.eliterecover.com" target="_blank">www.eliterecover.com</a></p>
+                        </div>
+                    </div>
+
+
+                        <!-- Right Side: Image -->
+                    <div class="contact-right">
+                        <img src="dist/images/downloads/customer.png" alt="Customer Support" class="support-img" />
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="map-section" dir="rtl">
+                <div class="map-container">
+                    <iframe
+                    class="map-frame"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.429726144015!2d31.3049244!3d30.0750701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583f6a230d5139%3A0x108efaa9cde98c3d!2z2YXYs9iq2YjZhNmK2Kk!5e0!3m2!1sen!2seg!4v1695322167779!5m2!1sen!2seg"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </section>
+
+
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="site-footer-inner">
+                    <div class="brand footer-brand">
+                        <a href="#">
+                            <img class="header-logo-image" src="dist/images/logo.png" alt="Logo">
+                        </a>
+                    </div>
+
+                    <ul class="footer-links list-reset">
+                        <li>
+                            <a href="#" class="lang en">Contact</a>
+                            <a href="#" class="lang ar" style="display: none;">تواصل معنا</a>
+                        </li>
+                        <li>
+                            <a href="#" class="lang en">About us</a>
+                            <a href="#" class="lang ar" style="display: none;">من نحن</a>
+                        </li>
+                        <li>
+                            <a href="#" class="lang en">FAQ's</a>
+                            <a href="#" class="lang ar" style="display: none;">الأسئلة الشائعة</a>
+                        </li>
+                        <li>
+                            <a href="#" class="lang en">Support</a>
+                            <a href="#" class="lang ar" style="display: none;">الدعم</a>
+                        </li>
+                    </ul>
+
+                    <ul class="footer-social-links list-reset">
+                        <li>
+                            <a href="#">
+                                <span class="screen-reader-text lang en">Facebook</span>
+                                <span class="screen-reader-text lang ar" style="display: none;">فيسبوك</span>
+                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z" fill="#0270D7"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="screen-reader-text lang en">Twitter</span>
+                                <span class="screen-reader-text lang ar" style="display: none;">تويتر</span>
+                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z" fill="#0270D7"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="screen-reader-text lang en">Google</span>
+                                <span class="screen-reader-text lang ar" style="display: none;">جوجل</span>
+                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z" fill="#0270D7"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="footer-copyright">
+                        <span class="copyright_text">
+                            Designed By <a style="text-decoration: underline;" href="https://www.linkedin.com/company/amstechegyptt/">AMS Tech</a> 2025 <span id="copyright-year"></span>
+                        </span>                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="dist/js/main.min.js"></script>
+</body>
+</html>
