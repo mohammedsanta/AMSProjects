@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "title": "Downtown Apartment Complex",
+    "year": "2023",
+    "desc": "Located in the heart of the city, this contemporary apartment complex combines urban convenience with modern living. Residents enjoy state-of-the-art amenities such as a rooftop pool, co-working spaces, fitness centers, and 24/7 concierge service. Designed with sustainability in mind, the building also features smart home integrations and green energy solutions.",
+    "img": "pic.avif"
+  },
+  {
+    "id": "2",
+    "title": "Luxury Villas in New Cairo",
+    "year": "2024",
+    "desc": "Set in the serene suburbs of New Cairo, these luxury villas offer a blend of contemporary architecture and natural beauty. Each villa features spacious layouts, private gardens, swimming pools, and cutting-edge security systems. The community includes exclusive access to clubhouses, tennis courts, and wellness centers, ensuring an elite lifestyle experience.",
+    "img": "pic.avif"
+  },
+  {
+    "id": "3",
+    "title": "Commercial Office Towers",
+    "year": "2022",
+    "desc": "Premium business towers designed to elevate corporate identity and enhance productivity. These towers are equipped with high-speed elevators, energy-efficient glass façades, and flexible office spaces ideal for tech companies, financial firms, and startups. On-site amenities include dining areas, underground parking, and advanced IT infrastructure.",
+    "img": "pic.avif"
+  },
+  {
+    "id": "4",
+    "title": "مجمع سكني فاخر في الشيخ زايد",
+    "year": "2023",
+    "desc": "يقع المجمع في موقع استراتيجي في قلب الشيخ زايد، ويضم وحدات سكنية فاخرة مصممة وفق أعلى معايير الجودة. تتوفر مساحات خضراء واسعة، ومرافق ترفيهية مثل حمامات السباحة، النوادي الصحية، والمناطق المخصصة للأطفال. كما يتميز المشروع بنظام أمان متكامل وخدمات صيانة على مدار الساعة.",
+    "img": "pic.avif"
+  },
+  {
+    "id": "5",
+    "title": "منتجع سياحي على البحر الأحمر",
+    "year": "2025",
+    "desc": "يقدم المنتجع تجربة فريدة من نوعها تجمع بين الرفاهية والطبيعة الخلابة. يضم المنتجع شاليهات خاصة تطل على البحر، ومطاعم عالمية، ومراكز سبا متكاملة. تم تصميم المكان ليستقبل الزوار الباحثين عن الاسترخاء أو المغامرة، حيث تتوفر أنشطة مثل الغوص، وركوب الأمواج، والرحلات البحرية.",
+    "img": "pic.avif"
+  },
+    {
+    "id": "6",
+    "title": "Downtown Apartment Complex",
+    "year": "2023",
+    "desc": "Located in the heart of the city, this contemporary apartment complex combines urban convenience with modern living. Residents enjoy state-of-the-art amenities such as a rooftop pool, co-working spaces, fitness centers, and 24/7 concierge service. Designed with sustainability in mind, the building also features smart home integrations and green energy solutions.",
+    "img": "pic.avif"
+  },
+  {
+    "id": "7",
+    "title": "Luxury Villas in New Cairo",
+    "year": "2024",
+    "desc": "Set in the serene suburbs of New Cairo, these luxury villas offer a blend of contemporary architecture and natural beauty. Each villa features spacious layouts, private gardens, swimming pools, and cutting-edge security systems. The community includes exclusive access to clubhouses, tennis courts, and wellness centers, ensuring an elite lifestyle experience.",
+    "img": "pic.avif"
+  },
+  {
+    "id": "8",
+    "title": "Commercial Office Towers",
+    "year": "2022",
+    "desc": "Premium business towers designed to elevate corporate identity and enhance productivity. These towers are equipped with high-speed elevators, energy-efficient glass façades, and flexible office spaces ideal for tech companies, financial firms, and startups. On-site amenities include dining areas, underground parking, and advanced IT infrastructure.",
+    "img": "pic.avif"
+  },
+  {
+    "id": "9",
+    "title": "مجمع سكني فاخر في الشيخ زايد",
+    "year": "2023",
+    "desc": "يقع المجمع في موقع استراتيجي في قلب الشيخ زايد، ويضم وحدات سكنية فاخرة مصممة وفق أعلى معايير الجودة. تتوفر مساحات خضراء واسعة، ومرافق ترفيهية مثل حمامات السباحة، النوادي الصحية، والمناطق المخصصة للأطفال. كما يتميز المشروع بنظام أمان متكامل وخدمات صيانة على مدار الساعة.",
+    "img": "pic.avif"
+  },
+  {
+    "id": "10",
+    "title": "منتجع سياحي على البحر الأحمر",
+    "year": "2025",
+    "desc": "يقدم المنتجع تجربة فريدة من نوعها تجمع بين الرفاهية والطبيعة الخلابة. يضم المنتجع شاليهات خاصة تطل على البحر، ومطاعم عالمية، ومراكز سبا متكاملة. تم تصميم المكان ليستقبل الزوار الباحثين عن الاسترخاء أو المغامرة، حيث تتوفر أنشطة مثل الغوص، وركوب الأمواج، والرحلات البحرية.",
+    "img": "pic.avif"
+  }
+]

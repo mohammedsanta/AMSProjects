@@ -1,0 +1,326 @@
+footer.footer {
+  background-color: #222222; /* very dark gray */
+  color: #ccc; /* light gray text */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 50px 30px 30px;
+  font-size: 14px;
+  line-height: 1.6;
+  position: relative;
+}
+
+/* Footer container with three columns */
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Section styling */
+.footer-section {
+  flex: 1 1 300px;
+  min-width: 250px;
+}
+
+/* Section titles */
+.footer-title {
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  border-bottom: 3px solid #00a6e8; /* bright cyan underline */
+  padding-bottom: 4px;
+}
+
+/* Paragraph text */
+.footer-section.about-us p {
+  color: #ddd;
+  margin-bottom: 15px;
+  max-width: 320px;
+  line-height: 1.5;
+}
+
+/* Read more link */
+.footer-section.about-us a {
+  color: #00a6e8;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px dotted #00a6e8;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+  transition: color 0.3s ease;
+}
+
+.footer-section.about-us a:hover {
+  color: #0095d1;
+  border-bottom-color: #0095d1;
+}
+
+/* Contact info styling */
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  color: #bbb;
+  font-size: 13px;
+}
+
+.contact-list li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-list strong {
+  min-width: 60px;
+  color: #999;
+  margin-right: 8px;
+  font-weight: 600;
+}
+
+.contact-list a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-list a:hover {
+  color: #00a6e8;
+}
+
+/* Working hours */
+.working-hours p {
+  margin: 4px 0;
+  color: #bbb;
+  font-size: 13px;
+}
+
+.working-hours strong {
+  color: #fff;
+  font-weight: 600;
+}
+
+.working-hours span {
+  color: #00a6e8;
+}
+
+/* Services list */
+.footer-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav ul li {
+  margin-bottom: 12px;
+}
+
+.footer-nav ul li a {
+  color: #ccc;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.3s ease;
+}
+
+.footer-nav ul li a::before {
+  content: "–";
+  color: #00a6e8;
+  margin-right: 6px;
+}
+
+.footer-nav ul li a:hover {
+  color: #00a6e8;
+}
+
+/* Bottom part of footer */
+.footer-bottom {
+  max-width: 1200px;
+  margin: 40px auto 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+  border-top: 1px solid #444;
+  padding-top: 25px;
+}
+
+/* Socials follow */
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #bbb;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.socials span {
+  color: #ccc;
+}
+
+/* Social icons container */
+.social-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0 10px;
+  gap: 8px;
+}
+
+.social-links li a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  background: #333;
+  color: #00a6e8;
+  border-radius: 2px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.social-links li a:hover {
+  background-color: #00a6e8;
+  color: #222;
+}
+
+/* Download buttons */
+.downloads {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background: #00a6e8;
+  color: #222;
+  font-weight: 600;
+  font-size: 13px;
+  border-radius: 0;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn i {
+  background: #222;
+  color: #00a6e8;
+  padding: 6px;
+  font-size: 18px;
+  border-radius: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.download-btn:hover {
+  background-color: #008ecb;
+  color: #eee;
+}
+
+/* Copyright section */
+.footer-copyright {
+  max-width: 1200px;
+  margin: 30px auto 0;
+  padding-top: 20px;
+  border-top: 1px solid #444;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 12px;
+  color: #777;
+  gap: 12px;
+}
+
+.footer-copyright a {
+  color: #00a6e8;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.footer-copyright a:hover {
+  text-decoration: underline;
+}
+
+/* Footer navigation inline (bottom right) */
+.footer-nav-inline ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.footer-nav-inline ul li a {
+  color: #00a6e8;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 13px;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.footer-nav-inline ul li a:hover {
+  color: #008ecb;
+}
+
+/* Scroll to top button */
+.scroll-to-top {
+  background: #00a6e8;
+  border: none;
+  border-radius: 0;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.scroll-to-top:hover {
+  background-color: #008ecb;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .footer-copyright {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .footer-nav-inline ul {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
